@@ -9,6 +9,10 @@ img {
 }
 
 
+h1 {
+    color: red;
+}
+
 .produits {
     border: 3px solid #f1b0dc;
     border-radius: 30px;
