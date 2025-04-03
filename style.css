@@ -54,3 +54,12 @@ h1 {
 /* #6d071a
 #c45824
 #e0afff */
+
+
+/* responsive */
+
+@media (max-width: 430px) {
+    .produits {
+        flex-direction: column;
+    }
+}
