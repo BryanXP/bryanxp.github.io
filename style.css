@@ -1,5 +1,8 @@
+* {
+    box-sizing: border-box;
+}
 body {
-    background: url(src/img/composition-many-daisy-flower-buds.jpg) top / 100% ;
+    background: url(src/img/composition-many-daisy-flower-buds.png) top / 100% ;
     font-size: 16px;
 }
 
@@ -33,8 +36,10 @@ section {
     padding: 5px 5px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     width: 15%;
+    height: 350px;
 }
 
 .produits h2 {
@@ -42,11 +47,11 @@ section {
    color: #000000;
    text-transform: uppercase;
    font-size: 1em;
+   text-align: center;
 }
 
 .produits a {
     order: 0;
-
 
 }
 
@@ -58,6 +63,7 @@ section {
     background: #f1b0dc;
     cursor: pointer;
     color: #000;
+    aling
 }
 
 .produits p:hover{
