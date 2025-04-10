@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste de naissance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>liste de naissance <br> <span>Julie - Bryan</span></h1>
+        <div>
+            <p>Parce que vous nous demandez souvent ce qui nous ferait plaisir, ou
+                ce dont nous aurions besoin... avec cette liste, vous êtes sûrs de viser juste !</p>
+                <p>Nous vous remercions pour toutes ces attentions.</p>
+            </p>
+        </div>
+        <a href="index.html">accueil</a>
+    </header>
+    <main>
+        <form action="http://127.0.0.1:5500/index.html" method="get">
+            <div class="name">
+                <div><label for="name">Entrez votre Prénom</label></div>
+                <input type="text" id="name" name="name" required autofocus maxlength="15">
+            </div>
+            <div class="form-submit">
+                <input type="submit" value="Validez">
+            </div>
+        </form>
+    </main>
+</body>
